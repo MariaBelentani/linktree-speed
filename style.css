@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+:root {
+     --fonte-padrao: 'Poppins', sans-serif;
+}
+
+* {
+     margin: 0;
+     padding: 0;
+     font-family: var(--fonte-padrao);
+}
+
+body {
+     font-family: var(--fonte-padrao);
+     min-height: 100vh;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     background:
+     radial-gradient(circle at top left,
+     rgba(125, 92, 255, 0.30),
+     transparent 30%),
+
+     radial-gradient(circle at bottom right,
+     rgba(90, 60, 180, 0.25),
+     transparent 35%),
+
+     radial-gradient(circle at center,
+     rgba(140, 100, 255, 0.12),
+     transparent 45%),
+
+     linear-gradient(
+          180deg,
+          #0b0713,
+          #050505,
+          #12091f
+     );
+
+     background-repeat: no-repeat;
+}
+
+#container {
+     width: 450px;
+     height: 700px;
+     padding: 30px;
+     color: white;
+     text-align: center;
+     border-radius: 30px;
+     background: rgba(255, 255, 255, 0.05);
+     backdrop-filter: blur(10px);
+     border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#logo {
+     width: 125px;
+     height: auto;
+     margin-bottom: 5px;
+     border-radius: 50%;
+}
+
+h1 {
+     font-size: 20px;
+     font-weight: 610;
+}
+
+p {
+     font-size: 12px;
+}
