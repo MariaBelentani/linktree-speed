@@ -75,13 +75,13 @@ p {
 }
 
 #instagram {
-     width: 30px;
+     width: 40px;
      height: auto;
      margin-top: 10px;
-     margin-bottom: 10px;
+     margin-bottom: 5px;
 }
 
-#container a {
+a.link {
      display: flex;
      align-items: center;
      gap: 5px;
@@ -109,5 +109,5 @@ p {
      margin-left: auto;
      font-size: 30px;
      font-weight: 200;
-     color: rgb(186, 146, 250);
+     color: rgb(142, 81, 240);
 }
