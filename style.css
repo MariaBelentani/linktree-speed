@@ -96,9 +96,10 @@ a.link {
      border-radius: 999px;
      box-shadow: 0 0 19px rgba(156, 96, 252, 0.473);
      overflow: hidden;
+     justify-content: center;
 }
 
-#container a img {
+#icone {
      width: 64px;
      height: 57px;
      object-fit: contain;
