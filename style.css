@@ -112,3 +112,10 @@ a.link {
      font-weight: 200;
      color: rgb(142, 81, 240);
 }
+
+.footer {
+     margin-top: 175px;
+     font-size: 10px;
+     color: rgba(255, 255, 255, 0.5);
+     text-align: center;
+}
